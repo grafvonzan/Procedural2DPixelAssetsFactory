@@ -31,7 +31,7 @@ public class CreateImageFullOfVessels {
 				grids.add(grid);
 			}
 	
-			Color primaryColor = Color.decode(ColorUtils.getRandomColour());
+			Color primaryColor = Color.decode(ColorUtils.getRandomPrimaryColour());
 	
 			// create image
 			BufferedImage img = ImageUtils.outputAllToImage(grids, 800, 800, primaryColor, null);

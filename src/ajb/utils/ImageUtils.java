@@ -93,7 +93,7 @@ public class ImageUtils {
 		gr.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
 		// Fill background
-		gr.setColor(Color.decode("#1E1E1E"));
+		gr.setColor(Color.decode("#FFFFFF"));
 		gr.fillRect(0, 0, width, height);
 		
 		int x = 10;

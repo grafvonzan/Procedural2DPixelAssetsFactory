@@ -252,4 +252,21 @@ public class ColorUtils {
 		
 		return colours[RandomInt.anyRandomIntRange(0, 4)];
 	}
+	
+	public static String getRandomPrimaryColour() {
+		String teal = "#003333";
+		String red = "#660000";
+		String green = "#003300";
+		String blue = "#003399";
+		String purple = "#330066";
+		
+		String[] colours = new String[5];
+		colours[0] = teal;
+		colours[1] = red;
+		colours[2] = green;
+		colours[3] = blue;
+		colours[4] = purple;				
+		
+		return colours[RandomInt.anyRandomIntRange(0, 4)];
+	}
 }
