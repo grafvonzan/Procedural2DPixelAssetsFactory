@@ -8,7 +8,6 @@ import java.util.List;
 import ajb.domain.Pixel;
 import ajb.enums.AssetSize;
 import ajb.factory.VesselGeneratorFactory;
-import ajb.utils.ColorUtils;
 import ajb.utils.ImageUtils;
 
 public class CreateImageFullOfVessels {
@@ -31,7 +30,11 @@ public class CreateImageFullOfVessels {
 				grids.add(grid);
 			}
 	
-			Color primaryColor = Color.decode(ColorUtils.getRandomPrimaryColour());
+
+			//Color primaryColor = Color.decode(ColorUtils.getRandomPrimaryColour());
+
+			Color primaryColor = Color.decode("#2A2A2A");
+
 	
 			// create image
 			BufferedImage img = ImageUtils.outputAllToImage(grids, 800, 800, primaryColor, null);
